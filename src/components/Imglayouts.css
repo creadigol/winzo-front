@@ -1,0 +1,36 @@
+.img-grid {
+    column-count: 6;
+    column-gap: .5rem;
+    /* max-width: 980px; */
+    padding: 20px 30px;
+    margin: auto;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+}
+
+.image-layouts-pages {
+    width: 100%;
+}
+
+@media screen and (max-width:991px) {
+    .img-grid {
+        column-count: 4;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .img-grid {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .img-grid {
+        column-count: 1;
+    }
+}

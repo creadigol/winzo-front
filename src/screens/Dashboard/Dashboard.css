@@ -1,0 +1,17 @@
+.page-wrapper{
+    background-color: var(--winzo-dark);
+    min-height: 100vh;
+}
+
+.carousel_main .slick-slide img{
+    width: 100%;
+    padding: 15px;
+}
+
+.carousel_main .slick-slide img:focus-visible{
+    outline: none;
+}
+
+.carousel_main .slick-slide div:focus-visible{
+    outline: none;
+}

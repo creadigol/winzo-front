@@ -1,0 +1,95 @@
+.deposit-page-wrapper{
+    background-color: var(--winzo-white);
+}
+
+.sidebar_nav{
+    background: linear-gradient(180deg, #A7E5FF 0%, rgba(35, 189, 255, 0) 100%);
+    min-height: 90vh;
+    padding: 20px;
+}
+
+.sidebar_nav .nav-link{
+    text-align: center;
+    font-weight: 300;
+}
+
+.sidebar_nav .nav-pills .nav-link.active, .sidebar_nav .nav-pills .show>.nav-link{
+    background-color: #23BDFF;
+}
+
+.sidebar_nav .nav-link{
+    color: #0F1B26;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.deposit_main .tab-content{
+    padding: 35px;
+}
+
+/* Deposit Detail */
+.deposit_detail h5{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.deposit_detail input{
+    padding: 8px 20px;
+    min-width: 250px;
+    border: 1px solid #23BDFF;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.deposit_detail input::placeholder{
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: rgba(15,27,38,0.3);
+}
+
+.deposit_detail input:focus{
+    outline: none;
+}
+
+.deposit_detail p{
+    color: #0F1B26;
+    font-weight: 300;
+    font-size: 15px;
+    max-width: 50%;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+.deposit_detail button{
+    background-color: var(--winzo-blue);
+    padding: 7px 30px;
+    border: 0px;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.deposit_detail form span{
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.deposit_detail table tr , .deposit_detail table th , .deposit_detail table td{
+    border: 0px;
+}
+
+.deposit_detail table th{
+    font-weight: 300;
+}
+
+.deposit_detail table td{
+    font-weight: 300;
+}
+
+@media(max-width: 991px){
+    .sidebar_nav{
+        min-height: inherit;
+    }
+}

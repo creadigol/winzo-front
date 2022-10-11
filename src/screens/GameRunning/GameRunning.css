@@ -1,0 +1,175 @@
+.gamerunning_detail{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gamerunning_left{
+    display: flex;
+    align-items: center;
+}
+
+.gamerunning_left img{
+    max-width: 100px;
+    margin-right: 15px;
+}
+
+.gamerunning_left h2{
+    color: var(--winzo-white);
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+.gamerunning_right{
+    display: flex;
+    align-items: center;
+}
+
+.gamerunning_right button{
+    margin-right: 15px;
+}
+
+.gamerunning_right .game_info{
+    position: relative;
+}
+
+.gamerunning_right .game_info img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.game_info_detail{
+    position: absolute;
+    width: 330px;
+    right: 0;
+    top: 50px;
+    background-color: var(--winzo-white);
+    padding: 25px;
+    border-radius: 10px;
+    display: none;
+}
+
+.game_info_detail h4{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.game_info_detail ul{
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+
+.game_info_detail li{
+    font-family: var(--font-family-two);
+}
+
+.game_info:hover .game_info_detail{
+    display: block;
+}
+
+.gamerunning_right .win_prize{
+    position: relative;
+}
+
+.win_prize_list{
+    position: absolute;
+    width: 330px;
+    right: 0;
+    top: 50px;
+    background-color: var(--winzo-white);
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+
+.win_prize_list h4{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.win_prize_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #d3d3d3;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.win_prize_section h5 , .win_prize_section h6{
+    margin-bottom: 0px;
+}
+
+.win_prize_section h5 , .win_prize_section h6{
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.win_prize_section h5 img{
+    margin-right: 8px;
+}
+
+.win_prize_leftside{
+    display: flex;
+}
+
+.win_prize_leftside span{
+    margin-right: 10px;
+    font-weight: 300;
+}
+
+.win_prize .win_prize_list{
+    display: none;
+}
+
+.win_prize:hover .win_prize_list{
+    display: block;
+}
+
+.gamerunning_win_info{
+    display: flex;
+}
+
+@media(max-width: 991px){
+    .gamerunning_detail{
+        display: block;
+    }
+    .gamerunning_left{
+        margin-bottom: 20px;
+    }
+    .Game-page img{
+        width: inherit;
+    }
+    .bracker_detail ul{
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px){
+    .bracker_title{
+        display: block;
+    }
+    .bracker_detail h1{
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+}
+
+@media(max-width: 575px){
+    .gamerunning_right{
+        display: block;
+    }
+    .gamerunning_win_info{
+        margin-top: 15px;
+    }
+    .gamerunning_left{
+        display: block;
+    }
+    .gamerunning_left {
+        margin-bottom: 10px;
+    }
+}

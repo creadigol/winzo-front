@@ -1,0 +1,166 @@
+.head {
+    color: #FFF;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.menu li {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.play1-btn {
+    background: #19DA2D !important;
+    text-align: center;
+    padding: 7px 25px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    border: none !important;
+    border-radius: 10px;
+}
+
+.play1-btn:hover {
+    background: #19DA2D;
+    filter: opacity(.8);
+}
+
+.heads {
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.btn-1 {
+    text-align: center;
+    width: 200px;
+    color: #23BDFF !important;
+    background-color: transparent !important;
+    border: none;
+    border: 1px solid #23BDFF !important;
+    padding: 8px 0 !important;
+    font-weight: 600 !important;
+}
+
+.btn-1:hover {
+    background-color: #23BDFF !important;
+    color: #FFF !important;
+}
+
+.btn-1:focus {
+    background-color: #23BDFF !important;
+    color: #FFF !important;
+}
+
+.btn-1:active {
+    background-color: transparent !important;
+}
+
+.btn-main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0px;
+}
+
+.cancel {
+    background-color: #FF511A !important;
+    border-color: #FF511A !important;
+    padding: 7px 20px !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+}
+
+.cancel:hover {
+    filter: opacity(.8);
+}
+
+/* MODAL-PAGE CSS START */
+.price-box h5 {
+    color: #0F1B26;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.button-box button {
+    color: #23BDFF;
+    font-weight: 600;
+    background-color: transparent;
+    border-color: #23BDFF;
+    margin: 8px;
+}
+
+.button-box button:hover {
+    background-color: #23BDFF;
+    border-color: #23BDFF;
+}
+
+.button-box button:focus {
+    background-color: #23BDFF;
+    border-color: #23BDFF;
+}
+
+.search-box input {
+    padding: 7px 15px;
+    width: 75%;
+    border: none;
+    outline: none;
+    border: 1px solid #23BDFF;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.start-btn {
+    width: 70%;
+    margin: 25px 0;
+    background-color: #19DA2D !important;
+    border-color: #19DA2D !important;
+    font-weight: 500;
+}
+
+.start-btn:hover {
+    background-color: #19DA2D !important;
+    border-color: #19DA2D !important;
+    filter: opacity(.9);
+}
+
+.start-btn:focus {
+    background-color: #19DA2D !important;
+}
+
+.Game-page {
+    padding: 20px 0;
+}
+
+.Game-page img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:567px) {
+    .btn-1 {
+        font-size: 13px;
+    }
+
+    .play-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    .heads {
+        text-align: center;
+    }
+
+    .btn-main-box {
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+
+    .Game-page {
+        text-align: center;
+        padding: 20px 30px !important;
+    }
+}
